@@ -4,7 +4,7 @@
         "User": {
             "Path": "/",
             "UserName": "Hazmat",
-            "UserId": "AIDAJ3W36CQUDM55DJRZK",
+            "UserId": "AIDAIBNPVMN4XKBO4M5UM",
             "Arn": "arn:aws:iam::644160558196:user/andrewalexander",
             "CreateDate": {
                 "__class__": "datetime",

@@ -4,7 +4,7 @@
         "User": {
             "Path": "/",
             "UserName": "chrissy",
-            "UserId": "AIDAIRGKK45UIXHXNN2SI",
+            "UserId": "AIDAJOCIX26Q6LITP6WQG",
             "Arn": "arn:aws:iam::644160558196:user/chrissy",
             "CreateDate": {
                 "__class__": "datetime",

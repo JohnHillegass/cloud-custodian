@@ -304,6 +304,7 @@ class IamUserTag(BaseTest):
                  'days': 2}]},
             session_factory=factory)
         resources = p.run()
+        print(resources)
         self.assertEqual(len(resources), 1)
 
         client = factory().client('iam')

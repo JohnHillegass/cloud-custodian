@@ -3,8 +3,8 @@
     "data": {
         "User": {
             "Path": "/",
-            "UserName": "andrewalexander",
-            "UserId": "AIDAJ3W36CQUDM55DJRZK",
+            "UserName": "andrew",
+            "UserId": "AIDAINLXB4P6J26AKFUC6",
             "Arn": "arn:aws:iam::644160558196:user/andrew",
             "CreateDate": {
                 "__class__": "datetime",

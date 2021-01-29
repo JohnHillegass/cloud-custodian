@@ -3,9 +3,9 @@
     "data": {
         "User": {
             "Path": "/",
-            "UserName": "scot@sixfeetup.com",
-            "UserId": "AIDAIRGKK45UIXHXNN2SI",
-            "Arn": "arn:aws:iam::644160558196:user/scot@sixfeetup.com",
+            "UserName": "mandeep",
+            "UserId": "AIDAJRL6Y6JSV7GUCJKQW",
+            "Arn": "arn:aws:iam::644160558196:user/mandeep",
             "CreateDate": {
                 "__class__": "datetime",
                 "year": 2017,

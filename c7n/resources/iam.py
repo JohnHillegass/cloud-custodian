@@ -225,8 +225,9 @@ class DescribeUser(DescribeSource):
             results.append(
                 self.manager.retry(
                     client.get_user, UserName=r['UserName'],
-                    ignore_err_codes=client.exceptions.NoSuchEntityException))
-        return [r for r in resources if r is not None]
+                    ignore_err_codes=client.exceptions.NoSuchEntityException
+                ).get('User', {}).get('UserId'))
+        return [r for r in resources if r.get('UserId') in results]
 
     def get_resources(self, resource_ids, cache=True):
         client = local_session(self.manager.session_factory).client('iam')

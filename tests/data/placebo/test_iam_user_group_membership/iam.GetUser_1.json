@@ -3,9 +3,9 @@
     "data": {
         "User": {
             "Path": "/",
-            "UserName": "andrewalexander",
-            "UserId": "AIDAJ3W36CQUDM55DJRZK",
-            "Arn": "arn:aws:iam::644160558196:user/andrewalexander",
+            "UserName": "chadw",
+            "UserId": "AIDAJJWTP3ZUOEPTN46O2",
+            "Arn": "arn:aws:iam::644160558196:user/chadw",
             "CreateDate": {
                 "__class__": "datetime",
                 "year": 2017,

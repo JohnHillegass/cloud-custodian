@@ -4,7 +4,7 @@
         "User": {
             "Path": "/",
             "UserName": "scot@sixfeetup.com",
-            "UserId": "AIDAIRGKK45UIXHXNN2SI",
+            "UserId": "AIDAIQF3HRTVXDF7TMNAM",
             "Arn": "arn:aws:iam::644160558196:user/scot@sixfeetup.com",
             "CreateDate": {
                 "__class__": "datetime",

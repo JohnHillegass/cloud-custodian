@@ -221,13 +221,15 @@ class DescribeUser(DescribeSource):
         # new user prior it to its availability to get user
         client = local_session(self.manager.session_factory).client('iam')
         results = []
+        list_user_ids = []
         for r in resources:
+            list_user_ids.append(r.get('UserId')) 
             results.append(
                 self.manager.retry(
                     client.get_user, UserName=r['UserName'],
                     ignore_err_codes=client.exceptions.NoSuchEntityException
-                ).get('User', {}).get('UserId'))
-        return [r for r in resources if r.get('UserId') in results]
+                ).get('User'))
+        return [r for r in results if r.get('UserId') in list_user_ids]
 
     def get_resources(self, resource_ids, cache=True):
         client = local_session(self.manager.session_factory).client('iam')

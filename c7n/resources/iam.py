@@ -223,7 +223,7 @@ class DescribeUser(DescribeSource):
         results = []
         list_user_ids = []
         for r in resources:
-            list_user_ids.append(r.get('UserId')) 
+            list_user_ids.append(r.get('UserId'))
             results.append(
                 self.manager.retry(
                     client.get_user, UserName=r['UserName'],
